@@ -1,0 +1,13 @@
+.portfolioList {
+    font-size: 15px;
+    margin-right: 165px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.active{
+        background-color: maroon;
+        border-radius: 15px;
+        animation: blink 5s infinite;
+    }
+}

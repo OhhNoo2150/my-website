@@ -1,0 +1,166 @@
+.myJourney {
+    background-color: #000814;
+    color: #ffc300;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+.left{
+    h1{
+        align-items: center;
+        justify-content: center;
+        margin-left: 45vw;
+        text-shadow: #003566 3px 3px 3px;
+    }
+    .container{
+            width: 100%vw;
+            display: flex;
+            flex-direction: column;
+            margin: 20px 200px;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            
+            
+            h2{
+                text-decoration: underline;
+                text-shadow: #003566 3px 3px 3px;
+                flex-direction: flex-start;
+                position: absolute;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 510px;
+            }
+
+            .p{
+                display: flex;
+                position: relative;
+                text-shadow: #003566 3px 3px 3px;
+                align-items: center;
+                justify-content: center;
+                margin-left: 8px;
+                
+            }
+        .item1 {
+        border: 5px solid transparent;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, red, white, blue);
+        --angle: 0deg;
+        border-image:linear-gradient(var(--angle), red, white, blue) 1;
+        animation: 5s rotate linear infinite;
+        box-shadow: 0 15px 25px rgba(248, 244, 244, 0.2);
+        width: 45%;
+        display: flex;
+        position: static;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px;
+        margin-bottom: 70px; 
+        padding: 35px;
+        white-space: nowrap;
+
+            @keyframes rotate{
+                to{
+                    --angle: 360deg;
+                }
+            }
+        }
+        .item1:hover{
+        border: 2px #000814 dashed;
+        background-color: #ffc300;
+        color:#000814;
+        border-radius: 15px;
+        }
+        &.active {
+            top: 0;
+        }
+        .item2 {
+        border: 5px solid transparent;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, red, white, blue);
+        --angle: 0deg;
+        border-image:linear-gradient(var(--angle), red, white, blue) 1;
+        animation: 5s rotate linear infinite;
+        box-shadow: 0 15px 25px rgba(248, 244, 244, 0.2);
+        width: 45%;
+        display: flex;
+        position: static;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px; 
+        padding: 35px;
+        white-space: nowrap;
+
+            @keyframes rotate{
+                to{
+                    --angle: 360deg;
+                }
+            }
+
+            h4{
+                margin-right: 40px;
+            }
+        }
+        .item2:hover{
+        border: 2px #000814 dashed;
+        background-color: #ffc300;
+        color:#000814;
+        border-radius: 15px;
+        }
+        
+        h4{
+            text-align: center;
+            text-decoration: underline;
+            text-shadow: #003566 3px 3px 3px;
+            position: relative;
+            justify-content: center;
+            margin-right: 50px;
+            padding: 35px;
+        }
+    }
+}
+.right{
+    .container{
+        width: 100%vw;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 200px;
+    }
+    .item3{
+        border: 5px solid transparent;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to left, red, white, blue);
+        --angle: 0deg;
+        border-image:linear-gradient(var(--angle), red, white, blue) 1;
+        animation: 5s rotate linear infinite;
+        box-shadow: 0 15px 25px rgba(248, 244, 244, 0.2);
+        width: 45%;
+        display: flex;
+        position: static;
+        align-items: center;
+        justify-content: center;
+        margin-left: 60px; 
+        padding: 35px;
+        white-space: nowrap;
+
+        @keyframes rotate{
+            to{
+                --angle: 360deg;
+            }
+        }
+    }
+    .item3:hover{
+        border: 2px #000814 dashed;
+        background-color: #ffc300;
+        color:#000814;
+        border-radius: 15px;
+    }
+    h4{
+        text-align: center;
+        text-decoration: underline;
+        text-shadow: #003566 3px 3px 3px;
+        position: relative;
+        justify-content: center;
+        padding: 40px;
+    }
+}
+}
