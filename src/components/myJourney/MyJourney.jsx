@@ -7,7 +7,7 @@ export default function MyJourney() {
         <h1>My Journey</h1>
         <div className="container">
           <h2>MITxPro Full Stack Developers Course</h2>
-          <p>We are using the MERN stack (MongoDB, Express.js, React.js, Node.js)</p>
+          <h3>We are using the MERN stack (MongoDB, Express.js, React.js, Node.js)</h3>
           <div className="item1">
             <h4>Module 1</h4>
             <a href="https://whatwg.org/" target="_blank" rel="noopener noreferrer"><img src="assets/html5icon.png" alt="HTML 5 Logo" /></a>

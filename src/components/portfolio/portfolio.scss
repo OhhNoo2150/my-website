@@ -5,18 +5,21 @@
     flex-direction: column;
     align-items: center;
 
-    h1{
+    h1 {
         font-size: 50px;
+        color: maroon;
         font-weight: 500;
-        text-decoration: underline;
-        text-shadow: maroon 1px 1px 1px;
+        text-decoration: none;
+        text-shadow: #ffc300 2px 2px 2px;
     }
     h3{
         font-size: 25px;
         font-weight: 200;
+        color: maroon;
+        text-shadow: #ffc300 2px 2px 2px;
     }
     ul {
-        margin: 20px;
+        margin: 10px;
         padding: 0;
         list-style: none;
         display: flex;
@@ -25,7 +28,7 @@
 
 
     .container {
-        width: 70%;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -36,12 +39,12 @@
             height: 250px;
             border-radius: 30px;
             justify-content: center;
-            margin: 25px;
+            margin: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             border: 2px solid transparent;
-            border-image: conic-gradient(from var(--angle), #ffc300, #ffd60a, #f6bd60 ) 1;
+            border-image: conic-gradient(from var(--angle), blue, red, white ) 1;
             border-image-slice: 1;
             animation: 5s rotate linear infinite;
             --angle: 0deg;
@@ -53,6 +56,7 @@
             h3{
                 position: absolute;
                 font-size: 20px;
+                
             }
             a{
                 cursor:crosshair;
